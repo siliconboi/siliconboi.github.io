@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Alien Abduction Order Form</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="css/forms.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<section>
+			<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="post"
+			>
+			<input type="hidden" name="send_to" value="aishwarytripathi2001@gmail.com">
+			<h1>Alien Abduction Order Form</h1>
+			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
+			<fieldset>
+				<legend>Your contact information</legend>
+				<label for="name">Your name</label>
+				<input type="text" id="name" name="name" placeholder="Enter Name here">
+				<label for="phone">Phone number</label>
+				<input type="phone" id="phone" name="phone">
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email">
+			</fieldset>
+			<fieldset>
+				<legend>About your abduction </legend>
+				<label for="date">Requested date</label>
+				<input type="date" id="date" name="date">
+
+				<label for="number">How many people would you like abducted?</label>
+				<input type="number" id="number" name="number">
+				<p>What type of UFO do you prefer?</p>
+				<label>
+					<input type="radio" name="ufotype" value="oval UFO">Oval ufo
+				</label>
+				<label> <input type="radio" name="ufotype" value="Imperial cruiser">Star Wars-style Imperial cruiser
+				</label>
+				<label> <input type="radio" name="ufotype" value="battlestar galactica">Battlestar Galactica-style Viper
+				</label>
+				<label><input type="radio" name="ufotype" value="cube"> Borg-style cube
+				</label>
+				<label for="abtype">What type of abduction experience do you want?</label>
+
+				<select id="abtype" name="abtype">
+					<option selected>Select Something...
+					</option>
+					<option value="tour"> Tour of the solar system
+					</option>
+					<option value="dinner">Alien dinner and discussion</option>
+					<option value="dance">Alien dance lessons</option>
+					<option value="whale">Whale watching</option>
+				</select>
+				<label for="texbox">Special requests:</label>
+				<textarea id="textbox" name="textbox"></textarea>
+				<label for="checkbox">Add me to your email list</label>
+				<input type="checkbox" id="checkbox" name="checkbox" checked> 
+			</fieldset>
+			<button type="submit">
+				Submit
+			</button>
+		</form>
+		</section>
+		<aside>
+			<h3>Our Location</h3>
+			<address>
+				Bhopal &middot;
+				Madhya Pradesh &middot;
+				India
+			</address>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234700.85820854487!2d77.26580487961397!3d23.199347692604366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1646336978958!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</aside>
+	</div>
+</body>
+
+</html>
