@@ -75,6 +75,9 @@ section {
 aside {
 	flex-basis: 33%;
 }
+iframe{
+	width:100%;
+}
 
 
 
