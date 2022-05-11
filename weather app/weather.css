@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: blueviolet;
+    text-align: center;
+    background-image:url(edge-of-space-1533148.jpg);
+}
+#submit{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    color:blue;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+#cityname{
+    height: 3rem;
+    width:50rem;
+    font-size: 1.5rem;
+}
